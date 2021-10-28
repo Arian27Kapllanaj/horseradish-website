@@ -40,7 +40,8 @@
             top: 0;
             padding: 20px;
             width: 100%;
-            background: white;
+            background: transparent;
+            z-index: 1;
         }
 
         nav h2 {
@@ -50,8 +51,8 @@
         }
 
         nav h2 img {
-            height: 175px;
-            width: 225px;
+            width: 205px;
+            height: 165px;
         }
 
         .menu {
@@ -145,29 +146,28 @@
                 background: white;
             }
 
-            .menu li {
-                margin: 20px;
-                font-size: 1.5em;
-                color: #fff;
-            }
-
             nav label {
                 display: block;
+            }
+
+            nav h2 img {
+                height: 17.5vh;
+                width: 22.5vh;
             }
         }
 
         .menu li img {
-            width: 200px;
-            height: 175px;
+            width: 150px;
+            height: 165px;
+            margin-bottom: 25px;
         }
-
     </style>
 </head>
 
 <body>
 
     <nav>
-        <h2 class="brand"><img src="assets/logo.png" alt=""></h2>
+        <h2 class="brand"><a href="home.php"><img src="assets/logo.png" alt=""></a></h2>
         <input type="checkbox" id="nav">
         <label for="nav">
             <span></span>
