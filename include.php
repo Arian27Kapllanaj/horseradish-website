@@ -38,9 +38,8 @@
         nav {
             position: fixed;
             top: 0;
-            padding: 20px;
             width: 100%;
-            background: transparent;
+            background: white;
             z-index: 1;
         }
 
@@ -153,6 +152,7 @@
             nav h2 img {
                 height: 17.5vh;
                 width: 22.5vh;
+                display: none;
             }
         }
 
@@ -175,7 +175,7 @@
             <span></span>
         </label>
         <ul class="menu">
-            <li><a href="#location"><img src="assets/location.png" alt=""></a></li>
+            <li><a href="location.php"><img src="assets/location.png" alt=""></a></li>
             <li><a href="#how"><img src="assets/how.png" alt=""></a></li>
             <li><a href="#why"><img src="assets/why.png" alt=""></a></li>
         </ul>
