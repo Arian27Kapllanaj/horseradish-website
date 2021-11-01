@@ -177,6 +177,6 @@
         <ul class="menu">
             <li><a href="location.php"><img src="assets/location.png" alt=""></a></li>
             <li><a href="how.php"><img src="assets/how.png" alt=""></a></li>
-            <li><a href="#why"><img src="assets/why.png" alt=""></a></li>
+            <li><a href="why.php"><img src="assets/why.png" alt=""></a></li>
         </ul>
     </nav>
